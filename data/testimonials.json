@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "quote": "Ashutosh delivered exceptional work on our project. His attention to detail and technical expertise were invaluable.",
+        "author": "John Doe",
+        "role": "CTO",
+        "company": "Tech Company"
+    },
+    {
+        "id": "2",
+        "quote": "A pleasure to work with. Fast, reliable, and produces high-quality code.",
+        "author": "Jane Smith",
+        "role": "Product Manager",
+        "company": "Startup Inc"
+    },
+    {
+        "id": "3",
+        "quote": "Outstanding developer who brings creative solutions to complex problems.",
+        "author": "Mike Johnson",
+        "role": "Lead Designer",
+        "company": "Design Studio"
+    },
+    {
+        "id": "4",
+        "quote": "Ashutosh's work ethic and skill set are top-notch. Highly recommended!",
+        "author": "Sarah Williams",
+        "role": "Engineering Manager",
+        "company": "Enterprise Corp"
+    }
+]

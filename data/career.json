@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "year": "Mar 2025 – Jun 2025",
+        "company": "ClarityUX",
+        "role": "Software Engineer Intern (AI Product)",
+        "description": "Engineered an AI-powered Figma plugin for Saliency Mapping and attention prediction, adopted by 1,600+ paying designers and 60,000+ professionals worldwide.",
+        "technologies": [
+            "JavaScript",
+            "TypeScript",
+            "Razorpay",
+            "Tailwind CSS",
+            "OpenCV",
+            "Python",
+            "Figma Plugin"
+        ],
+        "achievements": [
+            "Streamlined UX testing by 70% (4–5 hours/project) using Saliency Mapping and automated design auditing",
+            "Reduced client iteration cycles from 2 weeks → 4 days, accelerating point of delivery",
+            "Optimized plugin performance, reducing latency by 60% (2.1s → 0.8s)",
+            "Boosted user retention by 22% via intuitive UI",
+            "Reduced bug recurrence by 30% through CI/CD and peer reviews"
+        ]
+    },
+    {
+        "id": "2",
+        "year": "Nov 2024 – Feb 2025",
+        "company": "Kuration AI",
+        "role": "Software Developer Intern (Full Stack)",
+        "description": "Built and deployed 10+ productivity tools for a B2B research agent, enhancing the precision and depth of market analysis with 70% accuracy.",
+        "technologies": [
+            "Python",
+            "OpenAI",
+            "Gemini",
+            "Third-Party APIs",
+            "REST APIs"
+        ],
+        "achievements": [
+            "Automated market research with 10+ internal tools, reducing manual errors by 35%",
+            "Cut research time by 15% (6 hrs → 5 hrs/task)",
+            "Developed a DNS resolver with 90% success rate (vs. 60% baseline)",
+            "Enhanced pipeline reliability and halved data fetch failures"
+        ]
+    },
+    {
+        "id": "3",
+        "year": "Aug 2024 – Present",
+        "company": "IET DAVV",
+        "role": "Software Developer (Backend + Database)",
+        "description": "Designed and developed a comprehensive Result Generation Software for academic workflows, serving 200+ faculty and 50+ coordinators.",
+        "technologies": [
+            "Java",
+            "Spring Boot",
+            "MySQL",
+            "GitHub Actions",
+            "REST APIs"
+        ],
+        "achievements": [
+            "Designed and normalized 45+ MySQL tables for result, schema, and department management",
+            "Developed 15+ REST APIs for result viewing, schema updates, and departmental workflows",
+            "Automated workflows for 200+ faculty and 50+ coordinators",
+            "Implemented CI/CD with GitHub Actions, cutting deployment time by 40%",
+            "Currently in Phase 1, with Phase 2 expanding to analytics and student portals"
+        ]
+    }
+]

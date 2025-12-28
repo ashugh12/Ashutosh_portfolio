@@ -1,0 +1,80 @@
+[
+    {
+        "id": "1",
+        "title": "MetaChat – Real-time Chat App",
+        "description": "Engineered a real-time chat platform supporting up to 20 concurrent users using Socket.io and JWT-secured APIs. Applied HTTP caching strategies, improving API responsiveness by an estimated 10%.",
+        "thumbnail": "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=800&h=600&fit=crop",
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+            "Tailwind CSS",
+            "DaisyUI",
+            "JWT"
+        ],
+        "category": "Full Stack",
+        "links": {
+            "live": "https://metachat-demo.com",
+            "github": "https://github.com/ashutosh/metachat"
+        }
+    },
+    {
+        "id": "2",
+        "title": "Distributed ML Inference Engine",
+        "description": "Scalable NLP inference system with containerized task queues. Built with FastAPI for REST APIs, Celery + Redis for distributed queues, and HuggingFace Transformers for NLP inference.",
+        "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
+        "technologies": [
+            "FastAPI",
+            "Celery",
+            "Redis",
+            "HuggingFace",
+            "Docker",
+            "Python",
+            "NLP"
+        ],
+        "category": "AI/ML",
+        "links": {
+            "github": "https://github.com/ashutosh/ml-inference-engine"
+        }
+    },
+    {
+        "id": "3",
+        "title": "LinkedIn Sourcing Agent",
+        "description": "Built an AI sourcing agent that parsed 10+ job descriptions and searched LinkedIn via SerpAPI. Automated outreach generation using Gemini AI, improving engagement with personalized messages and confidence-based scoring.",
+        "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop",
+        "technologies": [
+            "TypeScript",
+            "Cursor",
+            "Gemini AI",
+            "SerpAPI",
+            "React",
+            "REST APIs",
+            "JSON"
+        ],
+        "category": "AI/ML",
+        "links": {
+            "live": "https://linkedin-sourcing-agent.com",
+            "github": "https://github.com/ashutosh/linkedin-sourcing-agent"
+        }
+    },
+    {
+        "id": "4",
+        "title": "Dental Appointment System",
+        "description": "Designed a role-based dashboard enabling secure login, patient record management, and real-time appointment scheduling. Implemented protected routes, session persistence via localStorage, and cross-tab sync.",
+        "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
+        "technologies": [
+            "React.js",
+            "JSON",
+            "localStorage",
+            "Lucide Icons",
+            "Tailwind CSS",
+            "Calendar UI"
+        ],
+        "category": "Frontend",
+        "links": {
+            "live": "https://dental-appointment-system.com"
+        }
+    }
+]

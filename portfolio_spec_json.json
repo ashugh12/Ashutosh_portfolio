@@ -1,0 +1,265 @@
+{
+  "project": {
+    "name": "Ashutosh Portfolio Website",
+    "description": "Modern portfolio website built with Next.js featuring career timeline, projects showcase, and testimonials",
+    "framework": "Next.js",
+    "styling": "Tailwind CSS",
+    "type": "Portfolio Website"
+  },
+  "design": {
+    "theme": {
+      "primary": "Minimalist",
+      "focus": "Performance and Clean Design",
+      "colorScheme": "Light background with dark text",
+      "typography": "Modern sans-serif, clean hierarchy"
+    },
+    "layout": {
+      "type": "Split Layout",
+      "leftSection": "Career Timeline (Scrollable)",
+      "rightSection": "Projects Container (Fixed Size)"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero Section",
+      "position": "Top - Centered",
+      "components": [
+        {
+          "type": "Profile Image",
+          "shape": "Circular",
+          "overlay": "Building Something New badge"
+        },
+        {
+          "type": "Name",
+          "text": "Ashutosh",
+          "style": "Large, bold typography"
+        },
+        {
+          "type": "Tagline",
+          "text": "Crafting digital experiences with code and design. Focused on minimalism and performance."
+        },
+        {
+          "type": "Social Links",
+          "items": [
+            { "icon": "Resume", "link": "/resume.pdf" },
+            { "icon": "GitHub", "link": "#" },
+            { "icon": "LinkedIn", "link": "#" },
+            { "icon": "Twitter", "link": "#" }
+          ]
+        },
+        {
+          "type": "Contact Input",
+          "placeholder": "Send me a message...",
+          "style": "Rounded input with send button"
+        }
+      ]
+    },
+    {
+      "id": "main-content",
+      "name": "Main Content Area",
+      "layout": "Two Column Split",
+      "sections": [
+        {
+          "id": "career-timeline",
+          "name": "Career Timeline",
+          "position": "Left Side",
+          "behavior": "Scrollable vertical flow",
+          "style": {
+            "width": "50%",
+            "padding": "Spacious",
+            "overflow": "scroll"
+          },
+          "components": [
+            {
+              "type": "Timeline Item",
+              "structure": {
+                "year": "Display year/date range",
+                "company": "Company name",
+                "role": "Job title/role",
+                "description": "Brief description of responsibilities",
+                "technologies": "Tech stack used",
+                "achievements": "Key accomplishments"
+              },
+              "design": {
+                "connector": "Vertical line connecting items",
+                "marker": "Circular dot for each position",
+                "spacing": "Generous vertical spacing"
+              }
+            }
+          ],
+          "placeholder_data": [
+            {
+              "year": "2023 - Present",
+              "company": "Current Company",
+              "role": "Senior Developer",
+              "description": "Leading development initiatives"
+            },
+            {
+              "year": "2021 - 2023",
+              "company": "Previous Company",
+              "role": "Full Stack Developer",
+              "description": "Built scalable applications"
+            }
+          ]
+        },
+        {
+          "id": "projects-showcase",
+          "name": "Projects Showcase",
+          "position": "Right Side",
+          "behavior": "Fixed size container with scroll",
+          "style": {
+            "width": "50%",
+            "height": "Fixed viewport height",
+            "overflow": "scroll",
+            "padding": "Consistent spacing"
+          },
+          "components": [
+            {
+              "type": "Project Card",
+              "structure": {
+                "thumbnail": "Project preview image/screenshot",
+                "title": "Project name",
+                "description": "Brief project description",
+                "technologies": "Tech stack array",
+                "links": {
+                  "live": "Live demo URL",
+                  "github": "GitHub repository URL"
+                },
+                "category": "Project type/category"
+              },
+              "design": {
+                "layout": "Card with image + content",
+                "hover": "Subtle elevation/scale effect",
+                "spacing": "Consistent gap between cards"
+              }
+            }
+          ],
+          "placeholder_data": [
+            {
+              "title": "E-Commerce Platform",
+              "description": "Full-stack e-commerce solution with payment integration",
+              "technologies": ["Next.js", "Stripe", "PostgreSQL"],
+              "category": "Web Application"
+            },
+            {
+              "title": "Design System",
+              "description": "Comprehensive component library for enterprise",
+              "technologies": ["React", "Storybook", "TypeScript"],
+              "category": "UI Library"
+            },
+            {
+              "title": "Analytics Dashboard",
+              "description": "Real-time data visualization platform",
+              "technologies": ["Next.js", "D3.js", "Firebase"],
+              "category": "Dashboard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimonials Section",
+      "position": "Bottom of page",
+      "animation": {
+        "type": "Horizontal Scroll Animation",
+        "behavior": "Auto-scroll with pause on hover",
+        "direction": "Left to right infinite loop",
+        "speed": "Slow and smooth"
+      },
+      "components": [
+        {
+          "type": "Testimonial Card",
+          "structure": {
+            "quote": "Client/colleague testimonial text",
+            "author": "Person name",
+            "role": "Their position",
+            "company": "Company name",
+            "avatar": "Profile picture (optional)"
+          },
+          "design": {
+            "style": "Card with subtle border/shadow",
+            "width": "Fixed width per card",
+            "spacing": "Gap between cards"
+          }
+        }
+      ],
+      "placeholder_data": [
+        {
+          "quote": "Ashutosh delivered exceptional work on our project. His attention to detail and technical expertise were invaluable.",
+          "author": "John Doe",
+          "role": "CTO",
+          "company": "Tech Company"
+        },
+        {
+          "quote": "A pleasure to work with. Fast, reliable, and produces high-quality code.",
+          "author": "Jane Smith",
+          "role": "Product Manager",
+          "company": "Startup Inc"
+        },
+        {
+          "quote": "Outstanding developer who brings creative solutions to complex problems.",
+          "author": "Mike Johnson",
+          "role": "Lead Designer",
+          "company": "Design Studio"
+        }
+      ]
+    }
+  ],
+  "technical_requirements": {
+    "framework": "Next.js 14+",
+    "styling": "Tailwind CSS",
+    "animations": "Framer Motion or CSS animations",
+    "responsive": "Mobile-first approach",
+    "performance": {
+      "images": "Next.js Image optimization",
+      "fonts": "Next.js Font optimization",
+      "lazy_loading": "Implement for images and components"
+    },
+    "features": [
+      "Smooth scrolling",
+      "Intersection observers for animations",
+      "SEO optimization with metadata",
+      "Dark/Light mode toggle (optional)",
+      "Accessibility compliant (WCAG)"
+    ]
+  },
+  "file_structure": {
+    "pages": [
+      "app/page.tsx (Main landing page)",
+      "app/layout.tsx (Root layout)"
+    ],
+    "components": [
+      "Hero.tsx",
+      "CareerTimeline.tsx",
+      "TimelineItem.tsx",
+      "ProjectsShowcase.tsx",
+      "ProjectCard.tsx",
+      "Testimonials.tsx",
+      "TestimonialCard.tsx",
+      "ContactForm.tsx",
+      "SocialLinks.tsx"
+    ],
+    "data": [
+      "career.json (Career timeline data)",
+      "projects.json (Projects showcase data)",
+      "testimonials.json (Testimonials data)"
+    ],
+    "styles": [
+      "globals.css (Global styles and Tailwind imports)"
+    ]
+  },
+  "next_steps": [
+    "1. Set up Next.js project with TypeScript",
+    "2. Install and configure Tailwind CSS",
+    "3. Create component structure",
+    "4. Implement Hero section with profile and contact",
+    "5. Build Career Timeline component (left side)",
+    "6. Build Projects Showcase component (right side)",
+    "7. Implement horizontal scrolling Testimonials",
+    "8. Add animations and transitions",
+    "9. Optimize for performance and responsiveness",
+    "10. Deploy to Vercel"
+  ]
+}
