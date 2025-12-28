@@ -32,7 +32,7 @@ export default function Hero() {
                     <div className="absolute -inset-1 bg-gradient-to-r from-violet-500 to-indigo-500 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                     <div className="relative w-36 h-36 rounded-full overflow-hidden ring-4 ring-white shadow-2xl">
                         <img
-                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces"
                             alt="Ashutosh"
                             className="w-full h-full object-cover"
                         />
